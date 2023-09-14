@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="crud.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body class="container">
+    <div class="header">
+        <span class="heading__details">Users Details</span>
+        <button class="add__user" id="add__user">Add User</button>
+    </div>
+    <div class="main__container">
+        <div class="data__table">
+            <table class="table__content">
+                <thead>
+                    <tr class="table__heading">
+                        <th class="table__header , header__avatar">Avatar</th>
+                        <th class="table__header">First Name</th>
+                        <th class="table__header">Last Name</th>
+                        <th class="table__header , header__action">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="table__body">
+                   
+                </tbody>
+            </table>
+        </div>
+        <form id="form__container">
+            <h1 id="form__header">Update User</h1>
+            <label>First Name</label><br>
+            <input type="text" id="firstname" placeholder="First Name"><br>
+            <label>Last Name</label><br>
+            <input type="text" id="lastname" placeholder="Last Name"><br>
+            <label>Email</label><br>
+            <input type="text" id="email" placeholder="Email"><br>
+            <label>Avatar</label><br>
+            <input type="url" id="avatar--link" placeholder="Avatar"><br>
+            <button type="submit" class="submit__user" id="submit">Submit</button>
+        </form>
+    </div>
+    <script src="crud.js"></script>
+</body>
+</html>

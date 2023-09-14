@@ -1,0 +1,137 @@
+.container{
+    background-color: #49a09d; 
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 5px 20px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.heading__details{
+    font-size: 40px;
+    font-weight: 600;
+}
+.add__user{
+    padding: 8px;
+    font-weight:400;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    color:#ffffff;
+    background-color: #55608f;
+    border-style: none;
+    border-radius: 5px;
+}
+.main__container{
+    display: flex;
+}
+.header__avatar ,  .header__action{
+    width:5%;
+}
+.data__table{
+    margin: 1rem 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.table__content{
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    margin-right: 20px;
+}
+.table__heading{
+    background-color: #55608f;
+    text-align: center;
+}
+.table__header{
+    padding: 10px;
+}
+.table__column{
+    text-align: center;
+    padding: 10px;
+}
+.table__column img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.row:hover{
+    background-color: #55608f;
+}
+.delete_button{
+    background-color: transparent;
+    border-style: none;
+    font-size: large;
+    color: rgba(255, 77, 77, 0.747);
+}
+#form__container{
+    display: none;
+}
+#firstname , #lastname ,#email, #avatar--link{
+    width: 100%;
+    border-style: none;
+    height: 30px;
+    margin:10px 0;
+    border-radius: 5px;
+    padding-left: 10px ;
+}
+textarea:focus, input:focus , :placeholder-shown{
+    outline: none;
+    padding-left: 10px ;
+}
+
+.submit__user{
+    float: right;
+    padding: 10px 30px;
+    font-weight:400;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    color:#ffffff;
+    background-color: #55608f;
+    border-style: none;
+    border-radius: 5px;
+}
+@media screen and (max-width:630px) {
+     .main__container{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+     }
+     #form__container{
+        width:70% !important;
+     }
+     .table__content{
+        margin-right: 0px;
+     }
+}
+@media screen and (max-width:480px) {
+    .container{
+        font-size: 15px;
+    }
+    .heading__details{
+        font-size: 35px;
+        font-weight: 600;
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .container{
+        font-size: 12px;
+    }
+    .heading__details{
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 0.5rem;
+    }
+    .add__user{
+        padding: 6px;
+        font-weight:400;
+        font-size: 14px;
+    } 
+}
