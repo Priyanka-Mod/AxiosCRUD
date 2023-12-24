@@ -1,5 +1,5 @@
 .container{
-    background-color: #49a09d; 
+    background-color: rgb(196, 196, 255); 
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
@@ -20,7 +20,7 @@
     font-size: 18px;
     margin-top: 0.5rem;
     color:#ffffff;
-    background-color: #55608f;
+    background-color: rgb(118, 118, 250);
     border-style: none;
     border-radius: 5px;
 }
@@ -45,7 +45,7 @@
     margin-right: 20px;
 }
 .table__heading{
-    background-color: #55608f;
+    background-color: rgb(118, 118, 250);
     text-align: center;
 }
 .table__header{
@@ -61,7 +61,7 @@
     border-radius: 5px;
 }
 .row:hover{
-    background-color: #55608f;
+    background-color: rgb(118, 118, 250);
 }
 .delete_button{
     background-color: transparent;
@@ -92,7 +92,7 @@ textarea:focus, input:focus , :placeholder-shown{
     font-size: 18px;
     margin-top: 0.5rem;
     color:#ffffff;
-    background-color: #55608f;
+    background-color: rgb(118, 118, 250);
     border-style: none;
     border-radius: 5px;
 }
